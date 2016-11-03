@@ -5,7 +5,7 @@ package com.ssthouse;
  */
 public abstract class BaseSort {
 
-    public abstract void sort(int[] numArray);
+    public abstract int[] sort(int[] numArray);
 
     public void swap(int[] numArray, int indexOne, int indexTwo) {
         int temp = numArray[indexOne];

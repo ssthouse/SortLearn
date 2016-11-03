@@ -9,7 +9,7 @@ public class ImprovedBubbleSort extends BaseSort {
 
 
     @Override
-    public void sort(int[] numArray) {
+    public int[] sort(int[] numArray) {
         boolean isSorted = false;
         for (int i = 0; i < numArray.length - 1 && !isSorted; i++) {
             isSorted = true;
@@ -20,12 +20,7 @@ public class ImprovedBubbleSort extends BaseSort {
                 }
             }
         }
+        return numArray;
     }
 
-    public static void main(String[] args) {
-        ImprovedBubbleSort improvedBubbleSort = new ImprovedBubbleSort();
-        int[] testArray = {9, 1, 5, 8, 3, 7, 4, 6, 2};
-        improvedBubbleSort.sort(testArray);
-        System.out.println(Arrays.toString(testArray));
-    }
 }

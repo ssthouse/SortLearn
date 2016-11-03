@@ -15,13 +15,14 @@ public class BubbleSort extends BaseSort {
     }
 
     @Override
-    public void sort(int[] numArray) {
+    public int[] sort(int[] numArray) {
         for (int i = 0; i < numArray.length - 1; i++) {
             for (int j = 0; j < numArray.length - 1 - i; j++) {
                 if (numArray[j] > numArray[j + 1])
                     swap(numArray, j, j + 1);
             }
         }
+        return numArray;
     }
 
 }
