@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69b357fe-bb55-4ef7-adb8-ebd400aa4720" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/com/ssthouse/BubbleSortTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/com/ssthouse/ImprovedBubbleSortTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/com/ssthouse/SimpleSelectionSortTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ssthouse/StraightInsertionSort.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/ssthouse/InsertSort/DirectInsert.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/ssthouse/Main.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ssthouse/BaseSort.java" afterPath="$PROJECT_DIR$/src/com/ssthouse/BaseSort.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ssthouse/BubbleSort.java" afterPath="$PROJECT_DIR$/src/com/ssthouse/BubbleSort.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ssthouse/ImprovedBubbleSort.java" afterPath="$PROJECT_DIR$/src/com/ssthouse/ImprovedBubbleSort.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ssthouse/SimpleSelectionSort.java" afterPath="$PROJECT_DIR$/src/com/ssthouse/SimpleSelectionSort.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SortLearn.iml" afterPath="$PROJECT_DIR$/SortLearn.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ssthouse/StraightInsertionSort.java" afterPath="$PROJECT_DIR$/src/com/ssthouse/StraightInsertionSort.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SortLearn.iws" />
@@ -36,12 +26,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ImprovedBubbleSort.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/ssthouse/ImprovedBubbleSort.java">
+      <file leaf-file-name="StraightInsertionSort.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/ssthouse/StraightInsertionSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33280507">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="12" column="49" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StraightInsertionSortTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/com/ssthouse/StraightInsertionSortTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.42789224">
+              <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BubbleSortTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/com/ssthouse/BubbleSortTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="24" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -67,15 +79,15 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/com/ssthouse/InsertSort/DirectInsert.java" />
-        <option value="$PROJECT_DIR$/src/test/com/ssthouse/StraightInsertionSortTest.java" />
         <option value="$PROJECT_DIR$/src/com/ssthouse/BaseSort.java" />
         <option value="$PROJECT_DIR$/src/com/ssthouse/BubbleSort.java" />
-        <option value="$PROJECT_DIR$/src/com/ssthouse/StraightInsertionSort.java" />
         <option value="$PROJECT_DIR$/src/test/com/ssthouse/BubbleSortTest.java" />
         <option value="$PROJECT_DIR$/src/test/com/ssthouse/SimpleSelectionSortTest.java" />
         <option value="$PROJECT_DIR$/src/com/ssthouse/SimpleSelectionSort.java" />
         <option value="$PROJECT_DIR$/src/com/ssthouse/ImprovedBubbleSort.java" />
         <option value="$PROJECT_DIR$/src/test/com/ssthouse/ImprovedBubbleSortTest.java" />
+        <option value="$PROJECT_DIR$/src/test/com/ssthouse/StraightInsertionSortTest.java" />
+        <option value="$PROJECT_DIR$/src/com/ssthouse/StraightInsertionSort.java" />
       </list>
     </option>
   </component>
@@ -221,34 +233,8 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="JUnit.test.com.ssthouse in SortLearn">
-    <configuration default="false" name="DirectInsertTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="test.com.ssthouse.InsertSort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="SortLearn" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="test.com.ssthouse.InsertSort" />
-      <option name="MAIN_CLASS_NAME" value="test.com.ssthouse.InsertSort.DirectInsertTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="BubbleSortTest.testSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.StraightInsertionSortTest">
+    <configuration default="false" name="ImprovedBubbleSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="test.com.ssthouse.*" />
@@ -259,9 +245,9 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="test.com.ssthouse" />
-      <option name="MAIN_CLASS_NAME" value="test.com.ssthouse.BubbleSortTest" />
-      <option name="METHOD_NAME" value="testSort" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="test.com.ssthouse.ImprovedBubbleSortTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -300,6 +286,32 @@
       <patterns />
       <method />
     </configuration>
+    <configuration default="false" name="StraightInsertionSortTest.testSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="test.com.ssthouse.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="SortLearn" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="test.com.ssthouse" />
+      <option name="MAIN_CLASS_NAME" value="test.com.ssthouse.StraightInsertionSortTest" />
+      <option name="METHOD_NAME" value="testSort" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
     <configuration default="false" name="test.com.ssthouse in SortLearn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -314,32 +326,6 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="package" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="ImprovedBubbleSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="test.com.ssthouse.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="SortLearn" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="test.com.ssthouse" />
-      <option name="MAIN_CLASS_NAME" value="test.com.ssthouse.ImprovedBubbleSortTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -542,6 +528,32 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
+    <configuration default="false" name="StraightInsertionSortTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="test.com.ssthouse.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="SortLearn" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="test.com.ssthouse" />
+      <option name="MAIN_CLASS_NAME" value="test.com.ssthouse.StraightInsertionSortTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
     <configuration default="false" name="test in SortLearn" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -569,20 +581,19 @@
       <method />
     </configuration>
     <list size="6">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.test in SortLearn" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.DirectInsertTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.BubbleSortTest.testSort" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.StraightInsertionSortTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.test in SortLearn" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.ImprovedBubbleSortTest" />
       <item index="3" class="java.lang.String" itemvalue="JUnit.SimpleSelectionSortTest.testSort" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.test.com.ssthouse in SortLearn" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.ImprovedBubbleSortTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.StraightInsertionSortTest.testSort" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.test.com.ssthouse in SortLearn" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.test.com.ssthouse in SortLearn" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ImprovedBubbleSortTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.SimpleSelectionSortTest.testSort" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.BubbleSortTest.testSort" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.DirectInsertTest" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.StraightInsertionSortTest.testSort" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.test.com.ssthouse in SortLearn" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ImprovedBubbleSortTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.SimpleSelectionSortTest.testSort" />
       </list>
     </recent_temporary>
   </component>
@@ -599,7 +610,7 @@
       <workItem from="1462806345156" duration="629000" />
       <workItem from="1478005156692" duration="3924000" />
       <workItem from="1478136698627" duration="1035000" />
-      <workItem from="1478137872699" duration="3441000" />
+      <workItem from="1478137872699" duration="4293000" />
     </task>
     <task id="LOCAL-00001" summary="Finish improved bubble sort">
       <created>1478098313673</created>
@@ -613,11 +624,17 @@
       <option name="project" value="LOCAL" />
       <updated>1478136905054</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add test unit">
+      <created>1478157100139</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1478157100139</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9029000" />
+    <option name="totallyTimeSpent" value="9881000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1276" height="777" extended-state="0" />
@@ -665,7 +682,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Finish improved bubble sort" />
     <MESSAGE value="Finish simple selection sort" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish simple selection sort" />
+    <MESSAGE value="Add test unit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add test unit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -726,37 +744,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ssthouse/StraightInsertionSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47543582">
-          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/com/ssthouse/SimpleSelectionSortTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.09508716">
           <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ssthouse/SimpleSelectionSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.04754358">
-          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/com/ssthouse/BubbleSortTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40412045">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="24" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -793,6 +785,40 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33280507">
           <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ssthouse/SimpleSelectionSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19017433">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com/ssthouse/BubbleSortTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="24" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ssthouse/StraightInsertionSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="49" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com/ssthouse/StraightInsertionSortTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42789224">
+          <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
           <folding />
         </state>
       </provider>
